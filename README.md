@@ -6,34 +6,31 @@ code for model to predict story development
 
 - python3.6 
 ## qucik start
-This model need at least 6GB of GPU RAM. if you meet these conditions you can use flowing cmd to qucik start
-
+- Run as following to quick start the model if your running envirement at least GPU RAM 6GB:
 
 python cli.py
 
-if you don't have a gpu, you can run model by flow
-
+- Run as following if no GPU to use:
 
 python cli.py --device_type cpu
 
-
-if your gpu RAM < 6GB, you can use --batch_size to set batch set <100
+- set batch-size <100 if no enough GPU RAM
 
 ## note
 - cli.py 
 
-contain Model and program configuration files.
-
-- model3.py 
-
-is our best model
+contain model and program configuration files
 
 - model.py 
 
-is our sentences concateation moel mentail in our paper
+original concatenation model
+
+- model3.py 
+
+our best-result model
 
 - data
 
-in this file we cantain the test data file we had dealwithed
+prepared test-set data
 
 
