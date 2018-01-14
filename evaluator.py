@@ -169,11 +169,11 @@ class AccuracyEvaluator(LabeledEvaluator):
         for i,c in enumerate(correct):
             if c==0:
                 # wrongs.append(idxs[i*2] /2+1)
-                wrongs.append(data_set.data['p'][i])
+                wrongs.append(data_set.data['p'][i*2])
 
             else:
                 # rights.append()
-                rights.append(data_set.data['p'][i])
+                rights.append(data_set.data['p'][i*2])
 
         acc=sum(correct)/len(correct)
 
