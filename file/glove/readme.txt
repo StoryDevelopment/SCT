@@ -1,0 +1,1 @@
+there need this file glove.6B.100d.txt£¬you can download from the website.
