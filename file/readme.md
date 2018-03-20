@@ -1,8 +1,16 @@
 
+    BingLiuList
+    
+the dictionary of the emotional of words, negative or positive
 
+    haoruopeng_cut_300
+    
+it contain the featue of semantic-sequence from external knowledge 
 
+    glove 
+    
+Include pretrained dictionaries we use glove-6b-100
 
-BingLiuList is the dictionary of the emotional of words, negative or positive
-haoruopeng in this file , it contain the featue of event-sequence which had trained by 77.6 paper
-nagation is the dictionary of negation word
-pos_dic.json is the dictionary of pos-tag according to our label.
+    tag
+    
+Contains our extracted data information for final statistics.
