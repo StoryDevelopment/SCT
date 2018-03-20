@@ -18,21 +18,30 @@ code for model to predict story development
  set batch-size <100 if no enough GPU RAM
 
 ## note
-   
-   start.py 
+
+    start.py 
+
+contain parameters in the experiment  
+     
+    model_c.py 
 
 contain model and program configuration files
 
-     model.py 
+    tag.csv 
 
-original concatenation model
+contain the tagged data information described in paper
 
-     model3.py 
+    prepro_sentences.py
 
-our best-result model
+Data preprocessing code
 
-     data
+    flie
 
-prepared test-set data
+The required files in code preprocessing.
+
+    prepro_data/val_cut_300
+
+Contains pre-processed data information.
+
 
 
